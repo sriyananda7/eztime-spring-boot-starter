@@ -140,3 +140,19 @@ MIT License © 2025 [sriyananda7]
 You’re free to use, modify, and distribute.
 
 ⭐ If EZTime saved you hours of pain — star the repo to spread the word!
+
+Add to pom.xml
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+Step 2. Add the dependency
+
+	<dependency>
+	    <groupId>com.github.sriyananda7</groupId>
+	    <artifactId>eztime-spring-boot-starter</artifactId>
+	    <version>v0.0.1</version>
+	</dependency>
